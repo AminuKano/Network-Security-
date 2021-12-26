@@ -60,5 +60,5 @@ Figure 1 below shows the structure of a packet sniffer.
 
 Congratulations you have finished this session!
 
-## Refferences 
+## References 
 Kurose, J. and Ross, K., 2010. Computer networks: A top down approach featuring the internet. Peorsoim Addison Wesley.
