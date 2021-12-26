@@ -5,8 +5,9 @@ Warner, J., Musielewicz, D., Masters, G.P., Verett, T., Winchester, R. and Fulto
 ## Introduction to Malicious software
 Malicious software can be a threat to your devices, online privacy and your cybersecurity. It’s software that cyber attackers develop to gain access or cause damage to a computer or network, usually without the victim’s knowledge. Example of malicious software include: Malware, Spyware, Adware, Rootkits, Ransomware, Worms, and Keyloggers. Among different forms of malicious software, Malware or Malware is often difficult to detect, and network are typically infected without the user even noticing, it can be one of the primary threats to your network, personal information or network inprastructurer.
 
-* Start the Firewall program by downloading the visual tool from [this link](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/Tools/FirewallVisualizationTool.jar)
-You should see a screen similar to the one below:
+* Start the Firewall program by downloading the visual tool from [this link](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/Tools/FirewallVisualizationTool.jar). Click on the download button. After successfully downloading the file, double-click on the file to start the program. The file is a .jar file; it requires Java installed on your PC to run the program successfully.
+
+* By double-clicking the file, you should see a screen similar to the one below:
 
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Firewall_P1.PNG)
 
