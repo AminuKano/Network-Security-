@@ -5,7 +5,8 @@ Dr Aminu Usman
 * A  Firewall is part of computer system or network designed to stop unauthorized traffic flowing from one network to another. 
 * A  Firewall Separate trusted and untrusted components of a network.
 * A  Firewall Differentiate networks within a trusted network.
-Main functionalities of a Firewall are filtering data, redirecting traffic and protecting against network attacks.
+Main functionalities of a Firewall are filtering data, redirecting traffic and protecting against network attacks as illustrated in the Figure below.
+[](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Firewall_illustration.PNG)
 
 ## Introduction to Malicious software
 * Malicious software can be a threat to your devices, online privacy and your cybersecurity. 
