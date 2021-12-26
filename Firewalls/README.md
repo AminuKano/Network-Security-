@@ -45,3 +45,7 @@ You should see a screen similar to the one below:
 * What traffic now flows through the firewall?  Add some active attacks and watch if they flow through the firewall.
 
 * Would you claim your rule is now sufficient to allow traffic to flow for a typical network?  Why or why not? Do any of the active attacks now work against machines behind the firewall?
+
+# References
+
+Warner, J., Musielewicz, D., Masters, G.P., Verett, T., Winchester, R. and Fulton, S., 2010. Network firewall visualization in the classroom. Journal of Computing Sciences in Colleges, 26(2), pp.88-96.
