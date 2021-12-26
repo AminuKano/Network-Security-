@@ -2,6 +2,9 @@ Implementing network firewalls can be a difficult concept for students to grasp 
 
 Warner, J., Musielewicz, D., Masters, G.P., Verett, T., Winchester, R. and Fulton, S., 2010. Network firewall visualization in the classroom. Journal of Computing Sciences in Colleges, 26(2), pp.88-96.
 
+## Introduction to Malicious software
+Malicious software can be a threat to your devices, online privacy and your cybersecurity. It’s software that cyber attackers develop to gain access or cause damage to a computer or network, usually without the victim’s knowledge. Example of malicious software include: Malware, Spyware, Adware, Rootkits, Ransomware, Worms, and Keyloggers. Among different forms of malicious software, Malware or Malware is often difficult to detect, and network are typically infected without the user even noticing, it can be one of the primary threats to your network, personal information or network inprastructurer.
+
 * Start the Firewall program from the Tools menu of the class web site.  You should see a screen similar to the one below:
 
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Firewall_P1.PNG)
