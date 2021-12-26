@@ -1,14 +1,9 @@
-Implementing network firewalls can be a difficult concept for students to grasp initially. These exercises allow students to play with the Network Firewall Visualization tool to expose students to network security and firewall configuration. This tool is intended to teach and reinforce key concepts, including the use and purpose of a perimeter firewall, separated subnets, the purposes behind packet filtering, and the shortcomings of a simple packet filter firewall.
-
-
 ## About Firewalls
 
-* A  Firewall part of computer system or network designed to stop unauthorized traffic flowing from one network to another. 
+* A  Firewall is part of computer system or network designed to stop unauthorized traffic flowing from one network to another. 
 * A  Firewall Separate trusted and untrusted components of a network.
 * A  Firewall Differentiate networks within a trusted network.
 Main functionalities of a Firewall are filtering data, redirecting traffic and protecting against network attacks.
-
-![image](https://user-images.githubusercontent.com/96637786/147419038-e083a595-a5b5-4c72-b7ed-36358dbe527f.png)
 
 ## Introduction to Malicious software
 Malicious software can be a threat to your devices, online privacy and your cybersecurity. It’s software that cyber attackers develop to gain access or cause damage to a computer or network, usually without the victim’s knowledge. Example of malicious software include: Malware, Spyware, Adware, Rootkits, Ransomware, Worms, and Keyloggers. Among different forms of malicious software, Malware or Malware is often difficult to detect, and network are typically infected without the user even noticing, it can be one of the primary threats to your network, personal information or network inprastructurer.
