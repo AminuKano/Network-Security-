@@ -6,7 +6,12 @@
 Main functionalities of a Firewall are filtering data, redirecting traffic and protecting against network attacks.
 
 ## Introduction to Malicious software
-Malicious software can be a threat to your devices, online privacy and your cybersecurity. It’s software that cyber attackers develop to gain access or cause damage to a computer or network, usually without the victim’s knowledge. Example of malicious software include: Malware, Spyware, Adware, Rootkits, Ransomware, Worms, and Keyloggers. Among different forms of malicious software, Malware or Malware is often difficult to detect, and network are typically infected without the user even noticing, it can be one of the primary threats to your network, personal information or network inprastructurer.
+* Malicious software can be a threat to your devices, online privacy and your cybersecurity. 
+* It’s software that cyber attackers develop to gain access or cause damage to a computer or network, usually without the victim’s knowledge. 
+* Example of malicious software include: Malware, Spyware, Adware, Rootkits, Ransomware, Worms, and Keyloggers.
+* Among different forms of malicious software, Malware or Malware is often difficult to detect, and network are typically infected without the user even noticing, it can be one of the primary threats to your network, personal information or network inprastructurer.
+
+## Network Firewall Virtualisation Exercise
 
 * Start the Firewall program by downloading the visual tool from [this link](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/Tools/FirewallVisualizationTool.jar). Click on the download button. After successfully downloading the file, double-click on the file to start the program. The file is a .jar file; it requires Java installed on your PC to run the program successfully. If you do not have java installed on your machine, you use [this link](https://www.java.com/en/download/help/windows_manual_download.html#download) to download and install the application on your PC.
 
