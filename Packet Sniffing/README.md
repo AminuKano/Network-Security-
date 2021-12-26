@@ -42,3 +42,22 @@ Figure 1 below shows the structure of a packet sniffer.
 
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Wireshark_Captured_screen.PNG)
 
+## HTTP Authentication
+
+* Start up the Wireshark packet sniffer
+* Enter the following URL into your browser http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wireshark-file5.html
+* Type the requested user name and password into the pop up box.
+	- Username is “wireshark-students” – without the quotes
+  - password is “network” – without the quotes
+* Stop Wireshark packet capture and enter “http” in the display-filter-specification window, so that only captured HTTP messages will be displayed later in the packet-listing window.  
+
+* The username (wireshark-students) and password (network) that you entered are encoded in the string of characters (d2lyZXNoYXJrLXN0dWRlbnRzOm5ldHdvcms=) following the “Authorization: Basic” header in the client’s HTTP GET message.  While it may appear that your username and password are encrypted, they are simply encoded in a format known as Base64 format. The username and password are not encrypted! 
+
+* To see this, go to  http://www.motobit.com/util/base64-decoder-encoder.asp and enter the base64-encoded string d2lyZXNoYXJrLXN0dWRlbnRz and decode.  Voila!  You have translated from Base64 encoding to ASCII encoding, and thus should see your username!  
+
+* To view the password, enter the remainder of the string Om5ldHdvcms= and press decode.  Since anyone can download a tool like Wireshark and sniff packets (not just their own) passing by their network adaptor, and anyone can translate from Base64 to ASCII (you just did it!), it should be clear to you that simple passwords on WWW sites are not secure unless additional measures are taken. 
+
+Congratulations you have finished this session!
+
+## Refferences 
+Kurose, J. and Ross, K., 2010. Computer networks: A top down approach featuring the internet. Peorsoim Addison Wesley.
