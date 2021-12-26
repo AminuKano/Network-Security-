@@ -1,3 +1,5 @@
+Author
+Dr Aminu Usman
 ## About Firewalls
 
 * A  Firewall is part of computer system or network designed to stop unauthorized traffic flowing from one network to another. 
