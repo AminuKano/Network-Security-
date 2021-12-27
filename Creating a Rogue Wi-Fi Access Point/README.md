@@ -12,7 +12,7 @@
 
 *   Otherwise, open the terminal in the Kali machine and git clone the scripts into your directory using the following command. 
 
-_git clone https://github.com/ysj-HIoT/cybersecurity-resources_
+**_git clone https://github.com/ysj-HIoT/cybersecurity-resources_**
 
 ## WiFi Pineapple
 * Users looking for a free network in public spaces could easily be fooled with a simple SSID, to believe that the network is managed by a legitimate organisation. 
@@ -24,3 +24,16 @@ _git clone https://github.com/ysj-HIoT/cybersecurity-resources_
 * With Wi-Fi Pineapple hackers uses landing page to manipulate the connected users into providing their details into a fake website.
 
 * During this session you will practice the use of this device and learn about its security breach potential. You will also be introduced to certain methods on the internet that can further protect yourself from eavesdropping devices like this.
+
+## setting up WiFi Pineapple
+
+* Connect your WiFi Pineapple nano into a USB port on your Linux system, if you are using a virtual machine, make sure that your system can see the USB connections. Use lsusb to check this
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_1.PNG)
+
+* ASIX Electronics Corp. is the device that you are looking for, if you are struggling to find it you use [this guide.](https://www.techrepublic.com/article/how-to-enable-usb-in-virtualbox/)
+
+* The WiFi Pineapple should have now set up an adapter on your machine as well, confirm this, open the terminal and type the following command:
+
+**_ifconfig_ **
+
