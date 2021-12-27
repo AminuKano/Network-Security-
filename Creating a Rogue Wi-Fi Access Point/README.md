@@ -1,8 +1,6 @@
 
 ## Setting up the lab environment with Kali Linux
 
-``sudo dnf install hackrf -y``
-
 * Kali is a free Debian-based Linux OS, most famous for its use in penetration testing and security auditing. Containing hundreds of useful pre-installed tools, of which some will be used throughout this workshop.
 
 * You should have received a USB drive containing an installed copy of Kali Linux, plug it in and launch your device from USB. See [this link](https://www.acronis.com/en-gb/articles/usb-boot/) for a guide on how to launch your device from USB.  
@@ -15,7 +13,8 @@
 
 * Otherwise, open the terminal in the Kali machine and git clone the scripts into your directory using the following command. 
 
-" git clone https://github.com/ysj-HIoT/cybersecurity-resources "
+``git clone https://github.com/ysj-HIoT/cybersecurity-resources``
+
 
 ##  WiFi Pineapple
 * 1. Users looking for a free network in public spaces could easily be fooled with a simple SSID, to believe that the network is managed by a legitimate organisation. 
@@ -38,24 +37,27 @@
 
 * 3. The WiFi Pineapple should have now set up an adapter on your machine as well, confirm this, open the terminal and type the following command:
 
- "ifconfig"
 
+``ifconfig``
 
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_2.PNG)
 
 * 4. Next, disconnect the Pineapple Nano, then type the following command in the terminal
 
-   _wget wifipineapple.com/wp6.sh_ 
+``wget wifipineapple.com/wp6.sh``
+  
    
 * 5. The command should download the wp6.sh file into your current directory. This file is responsible for setting up your Wifi Pineapple. 
 
 * 6. To be able to use the wp6.sh, type the folliwng command as indicated in the Figure below:
 
- _chmod +x wp6.sh_ 
- 
+
+``chmod +x wp6.sh``
+  
  and then type 
  
- _sudo ./wp6.sh
+ ``sudo ./wp6.sh``
+
 
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_3.PNG)
 
