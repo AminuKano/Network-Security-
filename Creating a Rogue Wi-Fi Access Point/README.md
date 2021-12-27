@@ -1,5 +1,6 @@
 
-## Kali Linux
+## Setting up the lab environment with Kali Linux
+
 * Kali is a free Debian-based Linux OS, most famous for its use in penetration testing and security auditing. Containing hundreds of useful pre-installed tools, of which some will be used throughout this workshop.
 
 * You should have received a USB drive containing an installed copy of Kali Linux, plug it in and launch your device from USB. See [this link](https://www.acronis.com/en-gb/articles/usb-boot/) for a guide on how to launch your device from USB.  
@@ -14,7 +15,7 @@
 
 **_git clone https://github.com/ysj-HIoT/cybersecurity-resources_**
 
-## WiFi Pineapple
+##  WiFi Pineapple
 * Users looking for a free network in public spaces could easily be fooled with a simple SSID, to believe that the network is managed by a legitimate organisation. 
 
 * Wi-Fi Pineapple is a networking device developed by Hak5, its main function is to audit and broadcast a wireless connection. However, it is also designed for scenarios where the broadcasted network acts as a honeypot for public clients. 
@@ -75,3 +76,12 @@ _ifconfig_
 * Finally, set the filters to deny mode and finish the setup. Setting the filters to deny will ensure that no devices are blacklisted from this network. You should be able to login into your dashboard with the previously entered details.
 
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_8.PNG)
+
+* Finally, try connecting to the network that you set up, using a different device (phone/computer, anything with wireless connectivity). Check in the Clients tab to see if your device has made a successful connection. 
+
+* If you have difficulties of connecting your device you may follow the above steps or call the attention of the sessions' facilitator. 
+
+## Connecting to the Internet
+
+* By now you should now be able to connect to your new network, but without any internet access. That is because we have not yet set up the WiFi client mode. To do so,go to the networking settings, and locate the WiFi client tab.
+
