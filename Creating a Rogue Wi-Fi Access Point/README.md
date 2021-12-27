@@ -1,6 +1,8 @@
 
 ## Setting up the lab environment with Kali Linux
 
+``sudo dnf install hackrf -y``
+
 * Kali is a free Debian-based Linux OS, most famous for its use in penetration testing and security auditing. Containing hundreds of useful pre-installed tools, of which some will be used throughout this workshop.
 
 * You should have received a USB drive containing an installed copy of Kali Linux, plug it in and launch your device from USB. See [this link](https://www.acronis.com/en-gb/articles/usb-boot/) for a guide on how to launch your device from USB.  
