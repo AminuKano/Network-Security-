@@ -35,5 +35,23 @@
 
 * The WiFi Pineapple should have now set up an adapter on your machine as well, confirm this, open the terminal and type the following command:
 
-**_ifconfig_ **
+_ifconfig_ 
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_2.PNG)
+
+* Next, disconnect the Pineapple Nano, then type the following command in the terminal
+* 
+*   _wget wifipineapple.com/wp6.sh_ 
+*   
+* The command should download the wp6.sh file into your current directory. This file is responsible for setting up your Wifi Pineapple. 
+* To be able to use the wp6.sh, type the folliwng command as indicated in the Figure below:
+
+ _chmod +x wp6.sh_ 
+ 
+ and then type 
+ 
+ _sudo ./wp6.sh
+
+
+
 
