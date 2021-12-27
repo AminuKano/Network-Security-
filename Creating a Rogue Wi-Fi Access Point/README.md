@@ -96,4 +96,73 @@
 
 * However, be careful when choosing your interface, if you use wlan1 you might limit the capabilities of the WiFi Pineapple, disabling PineAP’s functionality. In my model below, I have connected a Wi-Fi adapter to the WiFi Pineapple, and it appears as the wlan2 interface.
 
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_WP.PNG)
+
+* To confirm internet connectivity, you can direct to the main dashboard page and try loading the bulletins. They will only load if you have internet access.
+
+* Alternatively, you can now try to connect a secondary device to the Pineapple’s network and try googling something.
+
+## Scanning Clients
+
+* Go to the Recon page where you will find the scan option. Set it to 1 minute and run it, at this point you might be prompted with the PineAP activation, accept it. After the scan, you should have a list of connections made by the WiFi Pineapple.
+
+* You can use these records to log MAC or IP addresses of the local devices. And even perform a wireless handshake capture or a deauth attack.
+
+* Be careful as deauth will temporarily disrupt the performance of the targeted network. Since it’s a form of attack which targets the communication between the router and client, making the client think that they have been disconnected.
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP2.PNG)
+
+* To add any of the scan results to logs or filters, click the drop-down button located near the SSID’s. The pop-up window should also consist of a tab for performing deauth on the network’s clients. 
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP3.PNG)
+
+* Furthermore, using the drop-down button from the Security column, a pop-up window will appear with a functionality for capturing wireless handshakes. It is a form of authentication that the router establishes with a connecting client, the handshake can be captured and decrypted using brute force methods.
+
+* Try capturing the wireless handshake using your WiFi Pineapple, press the Start Capture button.
+
+##  Monitoring Client Searches
+
+* We can use the WiFi Pineapple to gather data on what the network’s users are browsing. To do so we require an additional module. Head to the modules page (/modules/ModuleManager), then go to manage modules, now click on the get modules button.
+
+* Select and install the Dwall module.
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP4.PNG)
+
+* Open the Dwall module and run it, you should now be able to monitor the URLs that your network’s clients are browsing.
+
+* Click “Enable” to start scanning. It will only show unencrypted data from HTTP, therefore most sites will not actually display in results. Try www.neverssl.com, which is an example of a website that is missing an SSL certificate. 
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP5.PNG)
+
+## Adding a Landing Page
+
+* A landing page, redirecting anyone that connects to your network, is a simple method to steal the victim’s credentials. It requires you to design a website, containing a form that gets logged by the WiFi Pineapple. Captured data can be accessed by connecting via ssh.
+
+* This method is often referred to as a honeypot, users lured in expecting a free internet connection are manipulated into forfeiting their credentials to the hacker.
+
+* To begin the setup, head to the configuration tab on your WiFi Pineapple dashboard and scroll down to the landing page section. Activate the landing page and the auto-start settings, this will make sure that a new connection to the network will load your custom page automatically.
+
+* The text box below is the landing page code, in the following steps you will have to enter your website into this field.
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Landing_Page.PNG)
+
+* You can find a ready to go landing page [here](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/landing_page), clone the repository from GitHub if you haven’t yet (git clone https://github.com/ysj-HIoT/cybersecurity-resources) and go to the WiFi Pineapple folder where you should find index.php. 
+
+* To test the PHP page, use the command php -S localhost:8000, and enter the address localhost:8000 in your browser to see your page running live.  
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Running%20php%20on%20localhost.PNG)
+
+* If it is all working correctly then you can copy and paste the code into the landing page settings. Now with the landing page enabled and ready, try connecting a new device to the network. On successful connection, the landing page should open, enter something into the field and click reconnect.
+
+* To view the captured data, do ssh root@172.16.42.1 (IP address of your WiFi Pineapple). The password should be identical to what you entered in setup, otherwise the default is “change_on_install”. 
+
+When connected, type the following command 
+
+``cat /tmp/wifi-passwords.txt``
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Expected%20Results.PNG)
+
+* There is a module designed to make phishing credentials over landing pages simpler, called Evil Portal. You can search for it on the modules page or if already installed it will be at /modules/EvilPortal.
+
+
 
