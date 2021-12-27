@@ -24,11 +24,7 @@ Students would be required to access a computer system, internet connectivity, a
 
   
 ## [Activity 2 - Simulating network attacks using Shark Jack and Packet Squirrel(40 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Simulating%20network%20attacks%20using%20Shark%20Jack%20and%20Packet%20Squirrel)
- * Rubber Ducky Parts
-* Writing your duckyScript
-* Exercises
-  - Reconnaissance Scripts
-  - Exploit Scripts - Malicious code injection attack
+
 
 
 ## [Activity 3 - Packet Sniffing (40 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Packet%20Sniffing)
