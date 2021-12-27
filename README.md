@@ -32,9 +32,14 @@ Students would be required to access a computer system, internet connectivity, a
 
 
 ## [Activity 3 - Packet Sniffing (40 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Packet%20Sniffing)
+* Packet sniffing
+* Running Wireshark
+* HTTP Authentication
 
 
-
-## [Activity 4 - Firewalls (Time: 40 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Firewalls)
+## [Activity 4 - Network Firewall and Malicious software (Time: 40 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Firewalls)
+* About Firewalls
+* Malicious software
+* Network Firewall Virtualisation Exercise
 
 Implementing network firewalls can be a difficult concept for students to grasp initially. These exercises allow students to play with the Network Firewall Visualization tool to expose students to network security and firewall configuration. This tool is intended to teach and reinforce key concepts, including the use and purpose of a perimeter firewall, separated subnets, the purposes behind packet filtering, and the shortcomings of a simple packet filter firewall.
