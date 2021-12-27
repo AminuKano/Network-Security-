@@ -40,10 +40,11 @@ _ifconfig_
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_2.PNG)
 
 * Next, disconnect the Pineapple Nano, then type the following command in the terminal
-* 
-*   _wget wifipineapple.com/wp6.sh_ 
-*   
+
+   _wget wifipineapple.com/wp6.sh_ 
+   
 * The command should download the wp6.sh file into your current directory. This file is responsible for setting up your Wifi Pineapple. 
+
 * To be able to use the wp6.sh, type the folliwng command as indicated in the Figure below:
 
  _chmod +x wp6.sh_ 
@@ -52,6 +53,13 @@ _ifconfig_
  
  _sudo ./wp6.sh
 
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_3.PNG)
+
+* You should now see the setup menu, run through the guided setup, answering with “Y”. 
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Wireshark_Captured_screen.PNG) 
 
 
+* Now go to the following URL http://172.16.42.1:1471, where you will be greeted with another setup page. Potentially, you might have to go into the network settings and switch to the correct network.
 
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_5.PNG)
