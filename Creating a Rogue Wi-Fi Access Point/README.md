@@ -13,8 +13,8 @@
 
 *   Otherwise, open the terminal in the Kali machine and git clone the scripts into your directory using the following command. 
 
-git clone https://github.com/ysj-HIoT/cybersecurity-resources_
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+git clone https://github.com/ysj-HIoT/cybersecurity-resources
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ##  WiFi Pineapple
 * 1. Users looking for a free network in public spaces could easily be fooled with a simple SSID, to believe that the network is managed by a legitimate organisation. 
 
@@ -36,7 +36,8 @@ git clone https://github.com/ysj-HIoT/cybersecurity-resources_
 
 * 3. The WiFi Pineapple should have now set up an adapter on your machine as well, confirm this, open the terminal and type the following command:
 
-_ifconfig_ 
+ifconfig
+++++++++
 
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_2.PNG)
 
