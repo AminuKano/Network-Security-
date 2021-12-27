@@ -8,14 +8,12 @@ To understand the principles and importance of cyber hygiene.
 
 ## Overview of the session 
 
-* This session will train and engage students to think proactively about cybersecurity, cyber threats, cybercrimes and improving their understanding of online security. 
-   - students would be involved in the discussion on social engineering, the right tools and methods for cyber hygiene
-   - general methods and practices of keeping safe and secure online, creating and managing strong password
-   - when and how to access public WIFI, and 
-   - methods of detecting and reporting cyber harassment. 
-   
+* This session will cover simple wired and wireless network traffic analysis and exploration, simple tricks of pen testing, basic simulation of cyberattacks on a network and computer system, and practicing network security attacks and countermeasures. 
+*
+*  During this session, students will practice using some specialised devices, simple cybersecurity breaches and be introduced to certain methods and tricks to protect themselves from eavesdropping devices.
 
-* Students will perform some exercises using specialised equipment for various cyber hygiene activities, including understanding keystroke injection attacks to execute payloads into network systems, attacking and monitoring keyboard inputs to observe user keystrokes, and setting up listening to transmissions sent over a radio signal. 
+*  Students would be required to have access to a computer system to run a Kali Linux VM either using VirtualBox or booting from a USB, and access privilege to download and install applications during the session.
+   
 
 ## Requirements 
 
