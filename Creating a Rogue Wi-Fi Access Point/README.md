@@ -57,9 +57,21 @@ _ifconfig_
 
 * You should now see the setup menu, run through the guided setup, answering with “Y”. 
 
-![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Wireshark_Captured_screen.PNG) 
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_4.PNG) 
 
 
 * Now go to the following URL http://172.16.42.1:1471, where you will be greeted with another setup page. Potentially, you might have to go into the network settings and switch to the correct network.
 
-![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_5.PNG)
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_5.PNG)#
+
+* Enter your dashboard password, make sure you remember it as you will need it to access the control panel.
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_6.PNG)
+
+* The next stage is to set your SSID and WPA2 password. SSID is the visible name of the network, which will be broadcasted by the WiFi Pineapple. You can assign any name of your choice to your SSID. eg. NHS-Guest-WiFi, York Council Freee Wifi, etc. 
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_7.PNG)
+
+* Finally, set the filters to deny mode and finish the setup. Setting the filters to deny will ensure that no devices are blacklisted from this network. You should be able to login into your dashboard with the previously entered details.
+
+![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_8.PNG)
