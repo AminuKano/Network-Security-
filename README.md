@@ -4,7 +4,7 @@ Dr Aminu Usman
 ## Plan for today :
 
 ## Learning Objectives
-To understand the principles and importance of cyber hygiene.
+To understand the principles of network security.
 
 ## Overview of the session 
 
