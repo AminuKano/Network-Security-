@@ -10,11 +10,31 @@ Main functionalities of a Firewall are filtering data, redirecting traffic and p
 
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Firewall_illustration.PNG)
 
-## Introduction to Malicious software
-* Malicious software can be a threat to your devices, online privacy and your cybersecurity. 
+## Viruses and Other Malware
+* A virus or malicious code program is written for a variety of non-criminal purposes including advertisements, jokes, and political messages. But it can be a threat to your devices, online privacy and your cybersecurity. 
 * It’s software that cyber attackers develop to gain access or cause damage to a computer or network, usually without the victim’s knowledge. 
-* Example of malicious software include: Malware, Spyware, Adware, Rootkits, Ransomware, Worms, and Keyloggers.
-* Among different forms of malicious software, Malware or Malware is often difficult to detect, and network are typically infected without the user even noticing, it can be one of the primary threats to your network, personal information or network inprastructurer.
+* Example of malicious software include: Viruses, Malware, Spyware, Adware, Rootkits, Ransomware, Worms, and Keyloggers.
+### Viruses
+* Viruses operate in four primary environments: file viruses, boot viruses, macro viruses, and network viruses. 
+   1. File viruses infect their targets in several ways: as a parasite, as a companion, or through file system specific features known as link viruses. 
+   2. Boot viruses attack either the boot sector of the system, the master boot record, or change the system pointer to an active boot sector. 
+   3. Macro viruses are most commonly associated with common business software and infect documents, spreadsheets, databases, and presentation files. 
+   4. Network viruses attack the networks themselves or e-mail systems of the networks in order to spread themselves. 
+### Worms
+  * A computer worm is also a piece of software that copies itself elsewhere. However, unlike a virus, it does not attach itself to, or modify, other files. The worm is a stand-alone piece of code, although it may need to use another program to spread, it does not change that program in any way.
+  1. The worm may damage and compromise the security of the computer.
+  2. First known Internet worm was the [Morris worm](https://en.wikipedia.org/wiki/Morris_worm).
+
+### Trojan Horses
+  * A Trojan horse is commonly an unauthorized program contained within a legitimate program that performs functions unknown (and probably unwanted) by the user. Trojan horses typically masquerade as something desirable, a joke program, a legitimate software program, or some other type of executable file that the user wishes to install and run. 
+ 
+  * There are numerous types of Trojans including: Remote Access Trojans, Password Sending Trojans, Keyloggers, Destructive, Denial of Service Attack Trojans, Proxy/Wingate Trojans and Software Detection Killers
+
+### Adware and Spyware
+  * Adware and spyware are types of programs that could be contained in e-mail attachments, downloaded as part of another software program, or downloaded from a website. 
+     - Adware is a type of program that is, essentially, a pain to user that manifests itself in several ways including changes to the browser, redirecting startup pages on the Internet browser, replacing the search function within the browser, and generating pop-up ads and frames that can be difficult to delete or shut down. 
+     - Spyware programs are applications that send information via the Internet to the publishers or programmers for marketing purposes without obvious notification to users. Spyware can send a variety of information about the user's computer hardware, software, browsing habits, and other personal information to the host marketer or programmer. 
+
 
 ## Network Firewall Virtualisation Exercise
 
@@ -31,7 +51,7 @@ Main functionalities of a Firewall are filtering data, redirecting traffic and p
 * Click the paly button.  Note that the traffic flows both from the “cloud” or internet to the client machines.  
 * By default, there is no malicious traffic flowing to the machines.  Click on the OS Exploit option.  Eventually, you’ll see a similar red colored bug flow from the internet into the local area network and land on a machine, infecting the machine.  Once a machine is infected, it is marked as such with the “international No” emblem. Let’s see how configuring a firewall will help prevent such infections.  
 
-## FIREWALL Configuration
+## FIREWALL Simulations 
 * Start a new session by clicking File -> New in the upper window of the tool.  This time, choose the Parameter firewall.  The window that comes up will look like this:
 
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Firewall_P3.PNG)
