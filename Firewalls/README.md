@@ -38,7 +38,7 @@ Main functionalities of a Firewall are filtering data, redirecting traffic and p
 
 ## Network Firewall Virtualisation Exercise
 
-* Start the Firewall program by downloading the visual tool from [this link](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/Tools/FirewallVisualizationTool.jar). Click on the download button. After successfully downloading the file, double-click on the file to start the program. The file is a .jar file; it requires Java installed on your PC to run the program successfully. If you do not have java installed on your machine, you may use [this link](https://www.java.com/en/download/help/windows_manual_download.html#download) to download and install the application on your PC.
+* Start the Firewall program by downloading the visual tool from [this link](https://kevincurran.org/com320/labs/Firewall/FirewallVisualizationTool.jar). Click on the download button. After successfully downloading the file, double-click on the file to start the program. The file is a .jar file; it requires Java installed on your PC to run the program successfully. If you do not have java installed on your machine, you may use [this link](https://www.java.com/en/download/help/windows_manual_download.html#download) to download and install the application on your PC.
 
 * By double-clicking the file, you should see a screen similar to the one below:
 
