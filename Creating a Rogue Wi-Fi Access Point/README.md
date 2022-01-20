@@ -10,7 +10,7 @@
 * The keys to enter the boot order settings are different for every device, but the most common ones are DEL, F1, F2, F12. Eventually, if your screen looks like the screenshot below then you are ready to continue to the next step.
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/kali-desk.jpg">
+    <img width="60%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/kali-desk.jpg">
 </p>
 
 * Kali Linux should have some scripts included in the root directory; they will be useful throughout the tutorial (~/cybersecurity-resources/).
@@ -73,7 +73,7 @@
 7. You should now see the setup menu, run through the guided setup, answering with “Y”. 
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_4.PNG">
+    <img width="100%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_4.PNG">
 </p>
 
 8. Now go to the following URL http://172.16.42.1:1471, where you will be greeted with another setup page. Potentially, you might have to go into the network settings and switch to the correct network.
@@ -83,7 +83,6 @@
 </p>
 
 9. Enter your dashboard password, make sure you remember it as you will need it to access the control panel.
-
 <p align="center" width="100%">
     <img width="80%" src="(https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_6.PNG">
 </p>
@@ -137,13 +136,13 @@
 * Be careful as deauth will temporarily disrupt the performance of the targeted network. Since it’s a form of attack which targets the communication between the router and client, making the client think that they have been disconnected.
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP2.PNG">
+    <img width="60%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP2.PNG">
 </p>
 
 * To add any of the scan results to logs or filters, click the drop-down button located near the SSID’s. The pop-up window should also consist of a tab for performing deauth on the network’s clients. 
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP3.PNG">
+    <img width="60%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP3.PNG">
 </p>
 
 * Furthermore, using the drop-down button from the Security column, a pop-up window will appear with a functionality for capturing wireless handshakes. It is a form of authentication that the router establishes with a connecting client, the handshake can be captured and decrypted using brute force methods.
@@ -151,7 +150,7 @@
 * Try capturing the wireless handshake using your WiFi Pineapple, press the Start Capture button.
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/handshake-capture.png">
+    <img width="70%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/handshake-capture.png">
 </p>
 
 ##  Monitoring Client Searches
@@ -161,7 +160,7 @@
 * Select and install the Dwall module.
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP4.PNG">
+    <img width="70%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP4.PNG">
 </p>
 
 * Open the Dwall module and run it, you should now be able to monitor the URLs that your network’s clients are browsing.
@@ -169,7 +168,7 @@
 * Click “Enable” to start scanning. It will only show unencrypted data from HTTP, therefore most sites will not actually display in results. Try www.neverssl.com, which is an example of a website that is missing an SSL certificate. 
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP5.PNG">
+    <img width="100%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/Setup_Alpha_Scan_WP5.PNG">
 </p>
 
 ## Adding a Landing Page
