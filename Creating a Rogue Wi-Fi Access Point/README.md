@@ -10,7 +10,7 @@
 * The keys to enter the boot order settings are different for every device, but the most common ones are DEL, F1, F2, F12. Eventually, if your screen looks like the screenshot below then you are ready to continue to the next step.
 
 <p align="center" width="100%">
-    <img width="66%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/kali-desk.jpg">
+    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/kali-desk.jpg">
 </p>
 
 * Kali Linux should have some scripts included in the root directory; they will be useful throughout the tutorial (~/cybersecurity-resources/).
@@ -33,18 +33,24 @@
 
 ## setting up WiFi Pineapple
 
-1. Connect your WiFi Pineapple nano into a USB port on your Linux system, if you are using a virtual machine, make sure that your system can see the USB connections. Use lsusb to check this
+1. Connect your WiFi Pineapple nano into a USB port on your Linux system, if you are using a virtual machine, make sure that your system can see the USB connections. You can use the following command to check the USB connections.
 
-![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_1.PNG)
+''lsusb''
 
-2. ASIX Electronics Corp. is the device that you are looking for, if you are struggling to find it you use [this guide.](https://www.techrepublic.com/article/how-to-enable-usb-in-virtualbox/)
+<p align="center" width="100%">
+    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_1.PNG">
+</p>
+
+2. ASIX Electronics Corp. is the device that you are looking for, if you are struggling to find it then use [this guide.](https://www.techrepublic.com/article/how-to-enable-usb-in-virtualbox/)
 
 3. The WiFi Pineapple should have now set up an adapter on your machine as well, confirm this, open the terminal and type the following command:
 
 
 ``ifconfig``
 
-![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_2.PNG)
+<p align="center" width="100%">
+    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/WiFi_Pineapple_2.PNG">
+</p>
 
 4. Next, disconnect the Pineapple Nano, then type the following command in the terminal
 
