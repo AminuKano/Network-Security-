@@ -9,7 +9,7 @@
 
 * The keys to enter the boot order settings are different for every device, but the most common ones are DEL, F1, F2, F12. Eventually, if your screen looks like the screenshot below then you are ready to continue to the next step.
 
-[![kali-desk.jpg](https://i.postimg.cc/DZx3nDf5/kali-desk.jpg)](https://postimg.cc/sQGNJThZ)
+[![kali-desk.jpg](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/kali-desk.jpg)
 
 * Kali Linux should have some scripts included in the root directory; they will be useful throughout the tutorial (~/cybersecurity-resources/).
 
