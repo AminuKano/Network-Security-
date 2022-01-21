@@ -21,22 +21,16 @@ Students would be required to access a computer system, internet connectivity, a
 
 ## [Activity 1 - Creating a Rogue Wi-Fi Access Point (30 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Creating%20a%20Rogue%20Wi-Fi%20Access%20Point)
  * Setting up the Lab Environment with Kali Linux
- * Setting up WiFi Pineapple
- * Connecting to the Internet
- * Scanning Clients
- * Monitoring Client Searches
+ * Setting up the WiFi Pineapple
+ * Monitoring Clients
  * Adding a Landing Page
 
   
 ## [Activity 2 - Simulating network attacks using Shark Jack and Packet Squirrel(40 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Simulating%20network%20attacks%20using%20Shark%20Jack%20and%20Packet%20Squirrel)
 * Shark Jack Setup
 * Shark Jack Attack
-* Arming Mode & Viewing the Loot
-* Shark Jack Firmware
 * Packet Squirrel Setup
-* Packet Sniffer Switch
-* DNS Spoof Switch
-* VPN Tunnel Switch
+* Exploring the Packet Sniffer, DNS Spoof, and VPN Tunnel Modes
 * Custom Payloads
 
 
