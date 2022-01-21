@@ -205,7 +205,7 @@ The packet squirrel automatically prioritises payloads set up on the USB drive. 
     ``mkdir switch2``
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/squirrel_10.PNG">
+    <img width="70%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/squirrel_10.PNG">
 </p>
 
 * Git clone the Hak5 Packet Squirrel community repository to obtain several different pre-written payloads.
