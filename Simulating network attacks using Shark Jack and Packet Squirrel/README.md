@@ -157,7 +157,7 @@ The packet squirrel requires a minimum setup, it is a plug-in-play device. Your 
 * After editing the file, run the Packet Squirrel in the switch 2 position, to test the DNS spoofing payload. You should be able to browse the internet but searching for your spoofed domain would return either a redirection to 74.125.142.147 (google.com) or a security error by the browser.
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/squirrel_6.PNG">
+    <img width="70%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/squirrel_6.PNG">
 </p>
 
 * You can confirm the successful spoofing using the following command:
@@ -165,7 +165,7 @@ The packet squirrel requires a minimum setup, it is a plug-in-play device. Your 
     ``ping``
     
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/squirrel_7.PNG">
+    <img width="60%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/squirrel_7.PNG">
 </p>
 
 * Notice how the first ping shows Facebook to be at address 74.125.142.147 and the second ping shows 157.240.31.35. This confirms a successful DNS spoof.
@@ -217,5 +217,5 @@ The packet squirrel automatically prioritises payloads set up on the USB drive. 
 * Now run the Packet Squirrel in its respectable switch position to the new payload folder; in the example the Packet Squirrel is run on switch 2. Report on the loot that you have found in /media/kali/USB/loot/nmapdump/.
 
 <p align="center" width="100%">
-    <img width="80%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/squirrel_11.PNG">
+    <img width="70%" src="https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/squirrel_11.PNG">
 </p>
