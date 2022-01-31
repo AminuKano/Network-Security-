@@ -1,4 +1,10 @@
 
+
+Installing GNU Radio Companion and Setting up the work environment
+Hardware Setup
+Visualising FM Radio using HackRF One
+Listening to FM Radio
+
 # HackRF One
 The purpose of this activity is to provide a basic understanding of the HackRF One device and the GNU Radio Companion software to demonstrate the process of receiving, broadcasting, retransmitting, and live transmitting signals.
 
