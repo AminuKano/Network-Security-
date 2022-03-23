@@ -10,7 +10,7 @@ To understand the principles of network security.
 
 * This session will cover simple wired and wireless network traffic analysis and exploration, simple tricks of pen testing, basic simulation of cyberattacks on a network and computer system, and practicing network security attacks and countermeasures. 
 *  During this session, students will practice using some specialised devices, simple cybersecurity breaches and be introduced to certain methods and tricks to protect themselves from eavesdropping devices.
-*  Students would be required to have access to a computer system to run a Kali Linux VM either using VirtualBox or booting from a USB, and access privilege to download and install applications during the session.
+*  Students would be required to have access to a computer system to run a Kali Linux VM either using Oracle VirtualBox/VMware or boot from a USB, and access privilege to download and install applications during the session.
    
 
 ## Requirements 
