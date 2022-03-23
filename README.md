@@ -1,11 +1,6 @@
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/ysj_HIoT.PNG)
 # Network-Security
 Dr Aminu Bello Usman
-## Plan for today :
-
-## Learning Objectives
-To understand the principles of network security.
-
 ## Overview of the session 
 
 * This session will cover simple wired and wireless network traffic analysis and exploration, simple tricks of pen testing, basic simulation of cyberattacks on a network and computer system, and practicing network security attacks and countermeasures. 
