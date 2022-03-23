@@ -1,6 +1,6 @@
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/ysj_HIoT.PNG)
 # Network-Security
-Dr Aminu Usman
+Dr Aminu Bello Usman
 ## Plan for today :
 
 ## Learning Objectives
@@ -9,9 +9,7 @@ To understand the principles of network security.
 ## Overview of the session 
 
 * This session will cover simple wired and wireless network traffic analysis and exploration, simple tricks of pen testing, basic simulation of cyberattacks on a network and computer system, and practicing network security attacks and countermeasures. 
-*
 *  During this session, students will practice using some specialised devices, simple cybersecurity breaches and be introduced to certain methods and tricks to protect themselves from eavesdropping devices.
-
 *  Students would be required to have access to a computer system to run a Kali Linux VM either using VirtualBox or booting from a USB, and access privilege to download and install applications during the session.
    
 
