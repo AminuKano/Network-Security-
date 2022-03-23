@@ -19,7 +19,7 @@ Students would be required to access a computer system, internet connectivity, a
  * Adding a Landing Page
 
   
-## [Activity 2 - Simulating network attacks using Shark Jack and Packet Squirrel(40 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Simulating%20network%20attacks%20using%20Shark%20Jack%20and%20Packet%20Squirrel)
+## [Activity 2 - Experimenting Network attacks using Shark Jack and Packet Squirrel(40 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Simulating%20network%20attacks%20using%20Shark%20Jack%20and%20Packet%20Squirrel)
 * Shark Jack Setup
 * Shark Jack Attack
 * Packet Squirrel Setup
