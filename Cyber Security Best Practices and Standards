@@ -7,8 +7,33 @@ store, handle, or process; and the interconnections among these various elements
 Cyberspace consists of artifacts based on or dependent on computer and communications technology; the information that these artifacts use, store, handle, or process; and the interconnections among these various elements. 
 
 
-Definition of cybersecurity as provided in ITU-T
+## Definition of cybersecurity as provided in ITU-T
 
 “Cybersecurity is the collection of tools, policies, security concepts, security safeguards, guidelines, risk management approaches, actions, training, best practices, assurance and technologies that are used to protect the cyberspace environment and organization and user’s assets.  Organization and user’s assets include connected computing devices, personnel, infrastructure, applications, services, telecommunications systems, and the totality of transmitted and/or stored information in the cyberspace environment.  Cybersecurity strives to ensure the attainment and maintenance of the security properties of the organization and user’s assets against relevant security risks in the cyberspace environment.  The general security objectives comprise the following:  availability, integrity, which may include authenticity and non-repudiation; and confidentiality.”
 
+
+## Information Security
+Preservation of confidentiality, integrity, and availability of information Other properties such as authenticity, accountability non-repudiation, and reliability can also be involved
+
+## Network Security
+Protection  of networks and their services from unauthorized modification, destruction, or disclosure and provision of assurance that the network performs its critical function correctly and that there are no harmful side effects
+
+## Risk 
+
+A measure of the extent to which an entity is threatened by a potential circumstance or event and typically a function of 
+* the adverse impacts that would arise if the circumstance or event occurs 
+* the likelihood of 	occurrence
+
+## Asset
+
+Data contained in an information system; or a service providedby a system; or a system capability, such as processing power or communication bandwidth; or an item of system equipment (such as hardware, firmware, software, or documentation); or a facility that houses system operations and equipment
+
+## Threat
+
+A potential for violation of security that exists when there is a circumstance, a capability, an action, or an event that could breach security and cause harm
+Basically, a threat is a possible danger that might exploit a vulnerability
+
+## Vulnerability 
+
+A flaw or weakness in a system’s design, implementation, or operation and management that could be exploited to violate the system’s security policy
 
