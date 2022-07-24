@@ -1,8 +1,7 @@
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/ysj_HIoT.PNG)
 
 Dr Aminu Usman 
-Reserach group lead
-Cyber Security reserach group lead York St John University
+
 
 # Network Security
 
@@ -13,6 +12,8 @@ Cyber Security reserach group lead York St John University
 *  During this session, students will practice using some specialised devices, simple cybersecurity breaches and be introduced to certain methods and tricks to protect themselves from eavesdropping devices.
 *  Students would be required to have access to a computer system to run a Kali Linux VM either using Oracle VirtualBox/VMware or boot from a USB, and access privilege to download and install applications during the session.
    
+## [Introduction - Best Practices, Standards![image](https://user-images.githubusercontent.com/96637786/180639860-f2763f97-04f7-48dd-b596-deb1aa8327f3.png)
+]    
 ## [Activity 1 - Creating a Rogue Wi-Fi Access Point (30 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Creating%20a%20Rogue%20Wi-Fi%20Access%20Point)
  * Setting up the Lab Environment with Kali Linux
  * Setting up the WiFi Pineapple
