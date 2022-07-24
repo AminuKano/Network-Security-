@@ -11,7 +11,7 @@ Dr Aminu Usman
 *  During this session, students will practice using some specialised devices, simple cybersecurity breaches and be introduced to certain methods and tricks to protect themselves from eavesdropping devices.
 *  Students would be required to have access to a computer system to run a Kali Linux VM either using Oracle VirtualBox/VMware or boot from a USB, and access privilege to download and install applications during the session.
    
-## [Introduction - Cyber Security Best Practices and Standards](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/Cyber%20Security%20Best%20Practices%20and%20Standards) 
+
 
 
 ## [Activity 1 - Creating a Rogue Wi-Fi Access Point (30 Minutes)](https://github.com/CS-Outreach-Session/Network-Security-/tree/main/Creating%20a%20Rogue%20Wi-Fi%20Access%20Point)
