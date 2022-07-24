@@ -1,6 +1,9 @@
 ![](https://github.com/CS-Outreach-Session/Network-Security-/blob/main/images/ysj_HIoT.PNG)
 
 Dr Aminu Usman 
+Reserach group lead
+Cyber Security reserach group lead York St John University
+
 # Network Security
 
 
