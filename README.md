@@ -2,7 +2,7 @@
 ![](https://github.com/CS-Outreach-Session/Embedded-System-Security-/blob/main/Images/ysj_HIoT.png)
 
 # Network Security
-
+# Dr Aminu Bello Usman 
 ## Cybersecurity Research Group (CRG)
 ## Department of Computing and Data Science, York St John, University
 
