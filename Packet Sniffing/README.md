@@ -1,4 +1,4 @@
-# Packet sniffing (Time: 30 Minutes)
+# Packet sniffing (Time: 45 Minutes)
 
 * Packet sniffing is the practice of gathering, collecting, and logging some or all packets that pass through a computer network, and it's a common practice by:
 
